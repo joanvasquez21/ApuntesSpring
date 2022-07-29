@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation=" http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-3.1.xsd 
+ http://www.springframework.org/schema/context 
+ http://www.springframework.org/schema/context/spring-context-3.1.xsd 
+ 
+ "> 
+ <!-- Aqui se crea el motor, generador de beans que nos proporciona los objetos que pediremos -->
+ <!-- El fichero de configuración básico de Spring es el contexto de aplicación (application context). 
+ Consiste en un fichero XML donde se añadirán todos los objectos que deberán existir en la aplicación 
+ al inicializarse la misma -->
+ <!-- Bean es un componente creado en Java que puede ser reutilizado y manipulado visualmente desde un entorno de desarrollo  -->
+ 
+ <bean id="miEmpleado" class="es.project.IoC.SecretarioEmpleados">
+ 	
+ </bean>
+ 
+ 
+ 
+ </beans>
